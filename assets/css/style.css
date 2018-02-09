@@ -345,8 +345,8 @@ figure:hover {
         font-size: 20px;
     }
     article {
-        display: block;    
-        width: 62%;
+        display: block;
+        width: 61%;
         float: left;
         margin: 18% 4% -5% 1%;
     }
@@ -384,8 +384,8 @@ figure:hover {
     aside {
         position: relative;
         top: 10%;
-        left: -257.5px;
-        width: 595px;
+        left: -267.5px;
+        width: 585px;
         padding-bottom: 50px;
         margin-bottom: 100px;
     }
