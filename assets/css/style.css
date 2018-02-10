@@ -19,7 +19,7 @@ header {
 header h1 {
     position: fixed;
     top: -20px;
-    margin-left: 10%;
+    margin-left: 200px;
     line-height: 70px;
     height: 50px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -32,7 +32,7 @@ header h1 {
 }
 header nav {
     display: inline;
-    margin-right: 18%;
+    margin-right: 200px;
     padding: 0;
     font-size: 14px;
     line-height: 500%;
@@ -52,15 +52,15 @@ article {
     position: relative;    
     width: 650px;
     float: left;
-    margin: 10% 0 0 -14%;
+    margin: 95px 0 0 0;
     background: #ffffff;
     border: 1px #dddddd solid;
 }
 aside {
     position: relative; 
-    margin-right: 0%;
-    right: 0%;
-    margin-top: 10%;
+    margin-right: 0;
+    right: 0;
+    margin-top: 95px;
     display: inline;
     float: right;
     background: #ffffff;
@@ -228,11 +228,12 @@ figure:hover {
     padding: 20px 20px 0 20px;
     float: left;
 }
-@media screen and (max-width: 980px) {
+
+@media screen and (max-width: 1224px){
     header h1 {
         position: fixed;
         top: 0;
-        margin-left: 10%;
+        margin-left: 100px;
         line-height: 30px;
         height: 30px;
         padding: 20px;
@@ -240,24 +241,41 @@ figure:hover {
     }
     header nav {
         display: inline;
-        margin-right: 10%;
+        margin-right: 100px;
+        padding: 0;
+        line-height: 500%;
+        float: right;
+    }   
+}
+@media screen and (max-width: 980px) {
+    header h1 {
+        position: fixed;
+        top: 0;
+        margin-left: 100px;
+        line-height: 30px;
+        height: 30px;
+        padding: 20px;
+        display: inline;
+    }
+    header nav {
+        display: inline;
+        margin-right: 70px;
         padding: 0;
         line-height: 500%;
         float: right;
     }
     article {
-        display: inline;    
-        width: 400px;
         float: left;
-        margin: 10% 10%;
+        width: 500px;
+        margin: 97px 0 0 90px;
     }
     aside {
         position: relative; 
-        margin-right: 10%;
-        margin-top: 10%;
+        margin-right: 100px;
+        margin-top: 97px;
         display: inline;
         float: right;
-        width: 250px;
+        width: 220px;
         height: 200px;
     }
     figure {
@@ -296,13 +314,10 @@ figure:hover {
         float: right;
     }
     article {
-        display: block;    
-        width: 640px;
+        width: 300px;
         float: left;
-        margin: 10% 4% -5% 1%;
     }
     aside {
-        display: block;
         max-width: 640px;
         top: 0;
         left: -22%;
@@ -313,11 +328,11 @@ figure:hover {
         margin: 20px;
         padding: 0;
     }
-    aside {
-        width: 100%;
-    }
 }
 @media screen and (max-width: 640px) {
+    body{
+        overflow-x:hidden;
+    }
     header {
         height: 150px;
         position: fixed;
@@ -346,8 +361,7 @@ figure:hover {
     }
     article {
         display: block;
-        width: 61%;
-        float: left;
+        width: 600px;
         margin: 18% 4% -5% 1%;
     }
     article h2 {
@@ -356,12 +370,13 @@ figure:hover {
     }
     aside {
         display: block;
-        max-width: 640px;
+        position: relative;
+        width: 600px;
         top: 0;
-        left: -22%;
+        margin: 100px 137px;
     }
     figure {
-        display: block;
+        display: inline-block;
         position: relative;
         margin: 5% 5% 30% 5%;  
     }
@@ -383,11 +398,15 @@ figure:hover {
     }
     aside {
         position: relative;
-        top: 10%;
-        left: -267.5px;
-        width: 585px;
+        top: 10px;
+        left: -350px;
+        width: 600px;
         padding-bottom: 50px;
-        margin-bottom: 100px;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 150px;
+        padding-right: 0;
+        padding-left: 0;
     }
     aside h3 {
         font-size: 28px;
@@ -398,8 +417,8 @@ figure:hover {
         left: 20px;
         max-height: 80px;
         width: 80px;
-        padding: 0 20px;
-        margin: 20px;
+        padding: 0;
+        margin: 0;
         float: none;
     }
     .social-media-link2 {
@@ -407,10 +426,10 @@ figure:hover {
         top: -3px;
         left: 23px;
         max-height: 76px;
-        max-width: 77px;
+        max-width: 73px;
         width: 73px;
-        padding: 0 20px;
-        margin: 20px;
+        padding: 0;
+        margin: 0;
     }
 }
 }
