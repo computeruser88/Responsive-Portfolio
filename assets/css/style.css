@@ -300,7 +300,7 @@ figure:hover {
     header h1 {
         position: fixed;
         top: 0;
-        margin-left: 2%;
+        margin-left: 90px;
         line-height: 30px;
         height: 30px;
         padding: 20px;
@@ -308,7 +308,7 @@ figure:hover {
     }
     header nav {
         display: inline;
-        margin-right: 10%;
+        margin-right: 90px;
         padding: 0;
         line-height: 500%;
         float: right;
@@ -346,14 +346,14 @@ figure:hover {
         margin-left: 0;
         line-height: 30px;
         height: 30px;
-        padding: 20px;
+        padding: 20px 0;
     }
     header nav {
         position: relative;
         top: 65px;
-        right: 20%;
+        right: 19%;
         font-size: 18px;
-        padding: 0 10px;
+        padding: 0;
         line-height: 500%;
     }
     header nav a:hover {
